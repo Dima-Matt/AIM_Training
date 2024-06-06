@@ -83,6 +83,7 @@ body {
     //overflow: hidden;
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
+    display: none;
     justify-content: center;
     align-items:center;
     &__content {
@@ -116,4 +117,9 @@ body {
     height: 50px;
     border-radius: 50%;
     background-color: red;
+}
+
+.page.up {
+    margin-top: -100vh;
+    transition: ease-in 0.3s;
 }
